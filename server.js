@@ -8,9 +8,7 @@ const express = require('express'),
 // configure application
 
 // set routes
-app.get('/', (req, res) => {
-     res.send('Hello, I am the app!');
-});
+app.use(require('./app/routes'));
 
 // start server
 app.listen(port, () => {
