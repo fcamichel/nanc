@@ -28,6 +28,9 @@ body {
       background: none;
       border: none;
       color: #899E8B; }
+    body .home-menu .pure-menu-children {
+      background-color: #99C5B5;
+      border: 1px solid #899E8B; }
     @media (min-width: 48em) {
       body .home-menu {
         text-align: left; }
@@ -56,3 +59,5 @@ body {
     color: #99C5B5; }
     body a:hover, body a:focus {
       text-decoration: none; }
+  body .pure-button-primary, body .pure-button-selected, body a.pure-button-primary, body a.pure-button-selected {
+    background-color: #99C5B5; }

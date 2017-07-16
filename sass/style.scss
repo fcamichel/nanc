@@ -40,6 +40,11 @@ body {
 
         }
 
+        .pure-menu-children {
+            background-color: #99C5B5;
+            border: 1px solid #899E8B;
+        }
+
         /* We can align the menu header to the left,
         but float the menu items to the right. */
         @media (min-width: 48em) {
@@ -85,6 +90,10 @@ body {
         &:hover, &:focus {
             text-decoration: none;
         }
+    }
+
+    .pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
+        background-color: #99C5B5;
     }
 
 }
