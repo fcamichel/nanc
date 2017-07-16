@@ -4,17 +4,16 @@ NoT aNoThEr Nodejs CRUD 🙈
 ## app structure
 ```
 - app
+------ controllers     <!-- all the controllers -->
 ------ models
 ---------- user.js     <!-- user model -->
 ------ routes.js       <!-- all the routes for the application -->
 - config
------- auth.js         <!-- will hold all the secret keys -->
 ------ database.js     <!-- will hold the database connection
+------ passport.js     <!-- configuring the strategies for passport -->
 - public               <!-- contains all static assets -->
 - sass                 <!-- Syntactically Awesome Style Sheets in here -->
 - tests                <!-- contains all the tests -->
-settings -->
------- passport.js     <!-- configuring the strategies for passport -->
 - views
 ------ pages
 ---------- home.ejs    <!-- show the home page -->
