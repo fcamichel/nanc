@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // connect to database
 mongoose.connect(configDB.url);
 // pass passport for configuration
-// require('./config/passport')(passport);
+require('./config/passport')(passport);
 
 
 // set ejs as templating engine

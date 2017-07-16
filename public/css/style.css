@@ -61,3 +61,6 @@ body {
       text-decoration: none; }
   body .pure-button-primary, body .pure-button-selected, body a.pure-button-primary, body a.pure-button-selected {
     background-color: #99C5B5; }
+  body .button-error {
+    background: #f5ab9e;
+    color: #8c3a2b; }

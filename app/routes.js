@@ -16,10 +16,30 @@ module.exports = (app, passport) => {
     // =====================================
     app.get('/login', loginController.showLogin);
 
+    // process the login form
+    app.post('/login', passport.authenticate('local-login', {
+        // redirect to the secure profile section
+        successRedirect : '/profile',
+        // redirect back to the signup page if there is an error
+        failureRedirect : '/login',
+        // allow flash messages
+        failureFlash : true
+    }));
+
     // =====================================
     // SIGNUP ==============================
     // =====================================
     app.get('/signup', loginController.showSignup);
+
+    // process the signup form
+    app.post('/signup', passport.authenticate('local-signup', {
+        // redirect to the secure profile section
+        successRedirect : '/profile',
+        // redirect back to the signup page if there is an error
+        failureRedirect : '/signup',
+        // allow flash messages
+        failureFlash : true
+    }));
 
     // =====================================
     // PROFILE SECTION =====================
