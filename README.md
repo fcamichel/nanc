@@ -28,3 +28,6 @@ NoT aNoThEr Nodejs CRUD 🙈
 
 ### Hand-picked registry of Node.js frameworks
 See http://nodeframework.com/
+
+## Are you new to node?
+Chances are you're new to nodejs. If this is the case you may wanna take a look at our [Tips for new nodies](https://github.com/fcamichel/nanc/wiki/Node-Beginner-Tips)
